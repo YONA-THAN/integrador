@@ -1,4 +1,4 @@
 # Grupo9_ProyectoFinal
-# Descripción personal
+# Descripción personal:Villalva Gisela, de Muñiz.
 ##  Descripción del producto
 #### Reseña Personal
