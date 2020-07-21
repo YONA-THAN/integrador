@@ -1,4 +1,4 @@
 # Grupo9_ProyectoFinal
-# descripcion personal
+# descripción personal
 ##  Descripcion del producto
 #### Reseña Personal
