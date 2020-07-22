@@ -2,8 +2,7 @@
 
 ##  Tematica del Sitio y Publico Objetivo:
 
-### Descripción del Grupo:
-Gisela Villalva, de Muñiz.
+### Gisela Villalva de Muñiz, 30 años, estudiante.
 Diego Santibañez, de San Miguel
 Jonathan Rodríguez de Quilmes
 Soy Gabriel Silvero de San Miguel, tengo 21 años y vivo con mi familia.
