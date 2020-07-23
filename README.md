@@ -10,6 +10,8 @@ Soy jonathan rodriguez vivo en quilmes, tengo 30 años. estoy estudiando program
 ##
 Soy Villalva Gisela, tengo 30 años y actualmente estoy cursando programación.
 ##
+Soy Diego Santibañez,tengo 38 años y vivo en San Miguel, soy padre de Lionel que esta por cumplir 3 años y Ximena que tiene 10 y soy hincha de San Miguel.Aparte de estar haciendo el curso de programacion tengo un emprendimiento de sublimacion y en mis ratos libres me gusta ver alguna serie , pelicula o algun partido de futbol que haya en el momento.
+##
 
 ## Paginas Web de Referencia:
 https://www.casadelaudio.com/ por la estetica y su funcionalidad.
