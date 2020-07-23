@@ -6,7 +6,9 @@ Somos un equipo en el cual vamos a vender productos/artículos de limpieza desti
 ## Reseña del Equipo:
 Soy Gabriel Silvero de San Miguel, tengo 21 años y vivo con mis padres y hermanos. Estoy estudiando el profesorado de ingles en la universidad de Hurlingham y en mi tiempo libre me gusta leer y/o repasar alguna actividad relacionado con el ingles. Tambien me gusta tocar la bateria, es un hobbie que tengo desde un par de años y lo practico para relajarme o sacarme el stress.
 ##
-soy jonathan rodriguez vivo en quilmes, tengo 30 años. estoy estudiando programacion debido ala demanda laboral que tiene en el presente y futuro. en el cual nuestros profesores nos pusieron el gran reto de crear una pagina web diseñada por un equipo del cual integro.  
+Soy jonathan rodriguez vivo en quilmes, tengo 30 años. estoy estudiando programacion debido ala demanda laboral que tiene en el presente y futuro. en el cual nuestros profesores nos pusieron el gran reto de crear una pagina web diseñada por un equipo del cual integro.  
+##
+Soy Villalva Gisela, tengo 30 años y actualmente estoy cursando programación.
 
 
 ## Paginas Web de Referencia:
