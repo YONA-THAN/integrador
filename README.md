@@ -1,4 +1,4 @@
-# Grupo9_ProyectoFinal
+# Grupo9_E-Quim.
 
 ##  Tematica del Sitio y Publico Objetivo:
 Ustedes pensarán porqué comenzamos así, ¿una descripción de nuestra empresa?, Porque sin Ustedes, nuestros clientes amigos, futuros clientes, proveedores y ¿porque no?, nuestros colegas, no estaríamos aquí a la vanguardia, donde el trabajo en equipo son valores inamovibles en nuestra trabajo diario diferenciandonos de los demas. Somos una empresa líder en fabricación y distribución mayorista de artículos de limpieza y accesorios; riego; bazar; y líneas de limpieza profesional e institucional. Realizamos envios por la zona a todo tipo de publico.
