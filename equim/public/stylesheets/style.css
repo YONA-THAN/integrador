@@ -1,0 +1,31 @@
+body{
+  background-color: white;
+}
+header{
+  background-color: wheat
+  
+}
+.container-fluid{
+  padding-top: 5%;
+  
+}
+header .col-1{
+  padding: 3%;
+   }
+header .col-1{
+padding: 1% 1%;
+
+}
+
+header .container-fluid .row .col-4 {
+  padding-left: 5%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  }
+  ul{
+    color: black;
+    list-style: none;
+    background-color: blanchedalmond;
+   
+  }
+ 
