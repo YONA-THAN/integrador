@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/3f21023fe6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel='stylesheet' href='./css/productAdd-style.css'/>
+  <title>Carga del Producto</title>
+</head>
+<body>
+  <!--EMPIEZA EL HEADER-->
+
+<header class="container-fluid">
+
+  <!--caja contenedora de boostrap-->
+  <div class="container">
+
+      <!--caja que contiene el logotipo, el buscador y botón con un link-->
+      <div class="row">
+
+          <!--caja que contiene el logotipo-->
+          <div class="col-4 col-md-4 col-lg-4">
+              <a href=""><img src="./images/logo-equim.png" alt=" "></a>
+          </div>
+
+          <!--caja que contiene el formulario-->
+          <div class="col-4 col-md-4 col-lg-4">
+            <div class="input-group">
+              <input class="form-control my-0 py-1 grey-border" type="text" placeholder="Buscar articulos, productos y más..." aria-label="Search">
+              <div class="input-group-append">
+                <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search text-grey" aria-hidden="true"></i></span>
+              </div>
+            </div>
+            </div>
+          <!--finaliza el div.row-->
+
+          <div class = "col-4 col-md-4 col-lg-4">
+            <span>
+              <a href=""><i class="fa fa-shopping-cart" style="color:#00AFEF" aria-hidden="true"></i></a>
+            </span>
+            <span>
+              <a href=""><i class="fa fa-user" style="color:#00AFEF" aria-hidden="true"></i></a>
+          </span>
+        </div>
+
+      <!--barra de navegación-->
+      <nav class="navbar-expand-md">
+
+          <!--boton para que desplegar el menu  en caso que el viewport sea tamaño movil-->
+          <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars "></i></button>
+
+          <!--barra de menu que aparece a partir de la vesión de tablet-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <!--barra de menu: login y registro-->
+              <ul class="usuario navbar-nav">
+                <li class="col-12 col-md-2"><a href="">NOSOTROS</a></li>
+                <li class="col-12 col-md-2"><a href="">COMO COMPRAR</a></li>
+                <li class="col-12 col-md-2"><a href="">NUESTRAS SUCURSALES</a></li>
+                <li class="col-12 col-md-2"><a href="">CONTACTO</a></li>
+              </ul>
+
+          </div>
+          <!--finaliza caja contenedora del menu-->
+      </nav>
+  </div>
+  <!--finaliza caja contenedora bootstrap-->
+</header>
+
+  <!--EMPIEZA EL FORMULARIO DE CARGA DE PRODUCTOS-->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h2>Nuevo producto</h2>
+      </div>
+      <div class="col-12">
+        <article>
+          <form class="col-12 col-md-12" action="">
+            <p>
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" id="nombre"
+            </p>
+            <p>
+              <label for="codigo">Código:</label>
+              <input type="number" name="codigo" id="codigo"
+            </p>
+            <p>
+              <label for="categoria">Categoria:</label>
+              <input type="text" name="categoria" id="categoria"
+            </p>
+            <p>
+              <label for="marca">Marca:</label>
+              <input type="text" name="marca" id="marca"
+            </p>
+            <p>
+              <label for="tamaño">Tamaño:</label>
+              <input type="text" name="tamaño" id="tamaño"
+            </p>
+            <p>
+              <label for="cantidad">Cantidad:</label>
+              <input type="text" name="cantidad" id="cantidad"
+            </p>
+            <p>
+              <label for="fragancia">Fragancia:</label>
+              <input type="text" name="fragancia" id="fragancia"
+            </p>
+            <p>
+              <label for="precio">Precio:</label>
+              <input type="text" name="precio" id="precio"
+            </p>
+            <p>
+              <label for="stock">Stock:</label>
+              <input type="text" name="stock" id="stock"
+            </p>
+            <p>
+              <label for="">Descripción del Producto</label>
+            </p>
+            <textarea cols="" rows=""></textarea>
+      
+            <p>
+              <button type="submit">AGREGAR NUEVO PRODUCTO</button>
+              <button type="reset">LIMPIAR CAMPOS</button>
+            </p>
+          </form>
+        </article>
+      </div>
+    <!--TERMINA EL FORMULARIO-->
+  </section>
+  <!--TERMINA EL FORMLARIO DE CARGA DE PRODUCTOS-->
+
+  <!--EMPIEZA EL FOOTER-->
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <ul class="segundo">
+          <div class="">
+            <li><a href="#">CONTACTO</a></li>
+          </div>
+          <div>
+            <li><a href="#">SUCURSALES</a></li>
+          </div>
+          <div>
+            <li><a href="#">REDES SOCIALES</a></li>
+          </div>
+          <div>
+            <li><a href="#">SOBRE NOSOTROS</a></li>
+          </div>
+      </div>
+    </div>
+  </footer>
+  <!--TERMINA EL FOOTER-->
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</body>
+</html>
