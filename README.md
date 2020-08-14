@@ -1,5 +1,7 @@
 # Grupo_9_E-Quim
-
+##
+SPRINT 1
+##
 ##  Tematica del Sitio y Publico Objetivo:
 Ustedes pensarán porqué comenzamos así, ¿una descripción de nuestra empresa?, Porque sin Ustedes, nuestros clientes amigos, futuros clientes, proveedores y ¿porque no?, nuestros colegas, no estaríamos aquí a la vanguardia, donde el trabajo en equipo son valores inamovibles en nuestra trabajo diario diferenciandonos de los demas. Somos una empresa líder en fabricación y distribución mayorista de artículos de limpieza y accesorios; riego; bazar; y líneas de limpieza profesional e institucional. Realizamos envios por la zona a todo tipo de publico.
 
@@ -23,3 +25,11 @@ http://www.elcaciquelimpieza.com.ar/ por el contenido útil y fácil de entender
 https://www.scmdelimpieza.com.ar/ por información de contacto visible.
 
 https://www.dionequimica.com.ar/ por el atractivo diseño y estructura.
+
+
+SPRINT 2
+##
+Retrospectiva de estrella:
+##
+En este sprint se llevo a cabo la retrospectiva de estrella de mar, una breve metodologia en el cual se dejo en evidencia las fortalezas y debilidades dentro del equipo. Es por eso que en conjunto con el equipo se decidio hacer este pequeño resumen de como nos fue en el Sprint N° 1.
+
