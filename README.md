@@ -25,8 +25,7 @@ http://www.elcaciquelimpieza.com.ar/ por el contenido útil y fácil de entender
 https://www.scmdelimpieza.com.ar/ por información de contacto visible.
 
 https://www.dionequimica.com.ar/ por el atractivo diseño y estructura.
-
-
+##
 SPRINT 2
 ##
 Retrospectiva de estrella:
