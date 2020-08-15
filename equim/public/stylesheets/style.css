@@ -36,7 +36,8 @@ h2{
   text-align: center;
   margin: 0 auto;
   padding-bottom: 2%;
-  border: var(--color-turquesaClaro) 3px outset
+  border: var(--color-turquesaClaro) 3px outset;
+  background-color: var(--color-celesteClarito);
 }
 p{
   text-align: center;
@@ -53,7 +54,9 @@ h3{
 header .col-1 {
   padding: 1% 4% 1% 4%;
 }
-
+header a{
+  color: black;
+}
 header .container-fluid .row .col-4 {
   padding-left: 5%;
   padding-bottom: 1%;
@@ -74,13 +77,14 @@ section .contenido {
   border-radius: 5px;
   padding: 5px;
   text-align: center;
-  border: var(--color-turquesaClaro) 3px outset
+  border: var(--color-turquesaClaro) 3px outset;
+  background-color: var(--color-celesteClarito);
 }
 
 /* footer */
 footer{
   text-align: center;
-  background-color: var(--color-gris);
+  background-color: var(--color-turquesaClaro);
 }
 
 .footer ul{
@@ -96,4 +100,5 @@ footer li{
 
 footer a{
   text-transform: capitalize;
+  color: black;
 }
