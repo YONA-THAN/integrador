@@ -7,4 +7,5 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/registro', userController.registro )
+router.post('/registro', userController.crear )
 module.exports = router;
