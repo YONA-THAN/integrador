@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('partials/head') %> 
+<body>
+  <!--EMPIEZA EL HEADER-->
+
+<%- include('partials/header') %> 
+
+  <!--EMPIEZA EL FORMULARIO DE CARGA DE PRODUCTOS-->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h2>Nuevo producto</h2>
+      </div>
+      <div class="col-12">
+        <article>
+          <form class="col-12 col-md-12" action="">
+            <p>
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="name" id=""
+            </p>
+            <p>
+              <label for="categoria">Categoria:</label>
+              <input type="text" name="category" id=""
+            </p>
+            <p>
+              <label for="precio">Precio:</label>
+              <input type="text" name="price" id=""
+            </p>
+            <p>
+              <label for="">Descripción del Producto</label>
+            </p>
+            <textarea cols="" rows=""></textarea>
+      
+            <p>
+              <button type="submit">AGREGAR NUEVO PRODUCTO</button>
+              <button type="reset">LIMPIAR CAMPOS</button>
+            </p>
+          </form>
+        </article>
+      </div>
+    <!--TERMINA EL FORMULARIO-->
+  </section>
+  <!--TERMINA EL FORMLARIO DE CARGA DE PRODUCTOS-->
+
+  <!--EMPIEZA EL FOOTER-->
+<%- include('partials/footer') %> 
+
+</body>
+</html>
