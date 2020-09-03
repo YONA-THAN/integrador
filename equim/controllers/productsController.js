@@ -1,4 +1,4 @@
-const dbUsers = require('../data/productos.json');
+const dbproductos = require('../data/productos.json');
 const fs = require('fs');
 const path = require('path');
 
@@ -12,14 +12,14 @@ const productsController = {
     },
     add:function(req,res,next){
         let lastID = 1;
-        dbproductos.forEach(user=>{
-            if(user.id > lastID){
-                lastID = user.id
+        dbproductos.forEach(producto=>{
+            if(producto.id > lastID){
+                lastID = producto.id
             }
         })
         let newProducto = {
             id:lastID + 1,
-            name:req.body.firstName,
+            name:req.body.name,
             description:req.body.description,
             imagen:req.body.imagen,
             category:req.body.category,
