@@ -4,8 +4,22 @@ const path = require('path');
 
 
 const productsController = {
-    products: function (req, res) {
-        res.render('productDetail')
+    listar: function(req, res) {
+        res.render('products', {
+                title: "Todos los Productos",
+                productos: dbproductos
+            })
+    },
+    productsDetail: function (req, res) {
+        let id = req.params.id;
+        let producto = dbproductos.filter(producto => {
+            return producto.id == id
+        })
+        res.render('productDetail', {
+            title: "Detalle del Producto",
+            id: id,
+            producto: producto[0]
+        }) 
     },
     agregar: function (req, res) {
         res.render('productAdd')
@@ -17,7 +31,7 @@ const productsController = {
                 lastID = producto.id
             }
         })
-        let newProducto = {
+        let newProduct = {
             id:lastID + 1,
             name:req.body.name,
             description:req.body.description,
@@ -25,12 +39,12 @@ const productsController = {
             category:req.body.category,
             price:req.body.price,
         }
-        dbproductos.push(newProducto);
+        dbproductos.push(newProduct);
         
-        fs.writeFileSync(path.join(__dirname,"..","data","products.json"),JSON.stringify(dbproductos),'utf-8')
+        fs.writeFileSync(path.join(__dirname,"..","data","productos.json"),JSON.stringify(dbproductos),'utf-8')
 
         res.redirect('/')
+},
 }
-};
 
 module.exports = productsController;

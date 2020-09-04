@@ -15,28 +15,28 @@
       </div>
       <div class="col-12">
         <article>
-          <form class="col-12 col-md-12" action="/products/agregarProductos" method="POST">
-            <p>
-              <label for="nombre">Nombre:</label>
-              <input type="text" name="name" id="">
-            </p>
-            <p>
-              <label for="categoria">Categoria:</label>
-              <input type="text" name="category" id="">
-            </p>
-            <p>
-              <label for="precio">Precio:</label>
-              <input type="text" name="price" id="">
-            </p>
-            <p>
-              <label for="">Descripción del Producto:</label>
-            </p>
+          <form class="col-12 col-md-12" action="/products/agregarProducto" method="post">
+            <div class= "form-group">
+              <label for="name">Nombre:</label>
+              <input type="text" name="name">
+            </div>
+            <div class= "form-group">
+              <label for="category">Categoria:</label>
+              <input type="text" name="category">
+            </div>
+            <div class= "form-group">
+              <label for="price">Precio:</label>
+              <input type="text" name="price">
+            </div>
+            <div class= "form-group">
+              <label for="decription">Descripción del Producto:</label>
+            </div>
             <textarea cols="" rows=""></textarea>
       
-            <p>
+            <div class= "form-group">
               <button type="submit">AGREGAR NUEVO PRODUCTO</button>
               <button type="reset">LIMPIAR CAMPOS</button>
-            </p>
+            </div>
           </form>
         </article>
       </div>
