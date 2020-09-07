@@ -18,20 +18,21 @@
       <div class="row productos">
         <div class="col-12">
           <h2>
-            Productos Mas Vendidos
+            Productos Destacados
           </h2>
         </div>
+        <% productos.forEach(producto =>{ %> 
         <div class="col-12 col-md-6 col-lg-3">
           <div class="contenido">
             <img
-              src="images/lavandina-doble-1lt.jpg "
+              src="images/<%= producto.imagen %>  "
               width="80%"
               height="80%"
               alt=""
             />
             <article>
-              <h3>$6.770</h3>
-              <p>Lavandina x 1lt.</p>
+              <h3> <%= producto.price %> </h3>
+              <p> <%= producto.name %> </p>
               <a href=""
                 ><i
                   class="fa fa-shopping-cart"
@@ -42,70 +43,9 @@
             </article>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="contenido">
-            <img
-              src="images/alcohol-4lts.jpg"
-              width="80%"
-              height="80%"
-              alt=""
-            />
-            <article>
-              <h3>$6.770</h3>
-              <p>Alcohol x 4lts.</p>
-              <a href="">
-                <i
-                  class="fa fa-shopping-cart"
-                  style="color: #00afef;"
-                  aria-hidden="true"
-                ></i>
-              </a>
-            </article>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="contenido">
-            <img
-              src="images/alcohol-un-litro.jpg "
-              width="80%"
-              height="80%"
-              alt=""
-            />
-            <article>
-              <h3>$6.770</h3>
-              <p>Alcohol x 1lt.</p>
-              <a href=""
-                ><i
-                  class="fa fa-shopping-cart"
-                  style="color: #00afef;"
-                  aria-hidden="true"
-                ></i
-              ></a>
-            </article>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="contenido">
-            <a href=""
-              ><img
-                src="images/lavandina-cuatro-litros.jpg "
-                width="80%"
-                height="80%"
-                alt=""
-            /></a>
-            <article>
-              <h3>$6.770</h3>
-              <p>Lavandina x 4lts.</p>
-              <a href=""
-                ><i
-                  class="fa fa-shopping-cart"
-                  style="color: #00afef;"
-                  aria-hidden="true"
-                ></i
-              ></a>
-            </article>
-          </div>
-        </div>
+        
+      <% }) %> 
+        
       </div>
     </section>
     <!--SECCION OFERTAS-->
@@ -116,91 +56,33 @@
             Productos Mas Vendidos
           </h2>
         </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="contenido">
-            <img
-              src="images/lavandina-doble-1lt.jpg "
-              width="80%"
-              height="80%"
-              alt=""
-            />
-            <article>
-              <h3>$6.770</h3>
-              <p>Lavandina x 1lt.</p>
-              <a href=""
-                ><i
-                  class="fa fa-shopping-cart"
-                  style="color: #00afef;"
-                  aria-hidden="true"
-                ></i>
-              </a>
-            </article>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="contenido">
-            <img
-              src="images/alcohol-4lts.jpg"
-              width="80%"
-              height="80%"
-              alt=""
-            />
-            <article>
-              <h3>$6.770</h3>
-              <p>Alcohol x 4lts.</p>
-              <a href="">
-                <i
-                  class="fa fa-shopping-cart"
-                  style="color: #00afef;"
-                  aria-hidden="true"
-                ></i>
-              </a>
-            </article>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="contenido">
-            <img
-              src="images/alcohol-un-litro.jpg "
-              width="80%"
-              height="80%"
-              alt=""
-            />
-            <article>
-              <h3>$6.770</h3>
-              <p>Alcohol x 1lt.</p>
-              <a href=""
-                ><i
-                  class="fa fa-shopping-cart"
-                  style="color: #00afef;"
-                  aria-hidden="true"
-                ></i
-              ></a>
-            </article>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="contenido">
-            <a href=""
-              ><img
-                src="images/lavandina-cuatro-litros.jpg "
+        <% productos.forEach(producto =>{ %> 
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="contenido">
+              <img
+                src="images/<%= producto.imagen %>  "
                 width="80%"
                 height="80%"
                 alt=""
-            /></a>
-            <article>
-              <h3>$6.770</h3>
-              <p>Lavandina x 4lts.</p>
-              <a href=""
-                ><i
-                  class="fa fa-shopping-cart"
-                  style="color: #00afef;"
-                  aria-hidden="true"
-                ></i
-              ></a>
-            </article>
+              />
+              <article>
+                <h3> <%= producto.price %> </h3>
+                <p> <%= producto.name %> </p>
+                <a href=""
+                  ><i
+                    class="fa fa-shopping-cart"
+                    style="color: #00afef;"
+                    aria-hidden="true"
+                  ></i>
+                </a>
+              </article>
+            </div>
           </div>
-        </div>
+          
+        <% }) %> 
+           
+        
+        
       </div>
     </section>
 
